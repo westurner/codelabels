@@ -1,0 +1,30 @@
+{
+  "name": "codelabels",
+  "version": "0.1.0",
+  "description": "Read and update GitHub and GitLab project labels with codelabels",
+  "main": "index.js",
+  "dependencies": {
+    "@octokit/rest": "^16.21.1",
+    "gitlab": "^4.5.1",
+    "js-yaml": "^3.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "testcommand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westurner/codelabels.git"
+  },
+  "keywords": [
+    "codelabels",
+    "github",
+    "gitlab"
+  ],
+  "author": "Wes Turner",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/westurner/codelabels/issues"
+  },
+  "homepage": "https://github.com/westurner/codelabels#readme"
+}
