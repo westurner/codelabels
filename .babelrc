@@ -1,8 +1,20 @@
 {
+  "presets": [["@babel/preset-react", {
+    "pragma":"h",
+    "development": true
+  }]],
   "plugins": [
-    ["@babel/plugin-transform-react-jsx", {
-      "pragma":"h",
-      "pragmaFrag": "React.Fragment"
-    }]
-  ]
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties"],
+    ["@babel/transform-react-jsx", {
+      "pragma": "h",
+      "pragmaFrag": "React.Fragment" }]
+  ],
+  "env": {
+    "development": {
+      "presets": [["@babel/preset-react", {
+        "development": true,
+        }]]
+    }
+  }
 }
